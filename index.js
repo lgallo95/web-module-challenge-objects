@@ -164,8 +164,13 @@ Use the getReviewsByRating function below to do the following:
   ]
 */
 
- function getReviewByRating(/* code here */) {
-    /* code here */
+ function getReviewByRating(array, rating) {
+   for (let i = 0; i < array.length; i++){
+     const arrayTwo = [];
+     if(array[i]["rating"].includes(rating)){
+       
+     }
+   }
   }
 
   
